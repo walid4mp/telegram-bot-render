@@ -25,7 +25,7 @@ let currentNumber = ''
 let currentTitle = ''
 
 app.get('/', function (req, res) {
-    res.send('<h1 align="center">تم بنجاح تشغيل البوت مطور البوت : عبد المالك وليد 𓅓𓆪𓆪 𖤛ᴠɪᴘ المطور : </h1>')
+    res.send('<h1 align="center">تم بنجاح تشغيل البوت مطور البوت :  walid HM 𓅓𓆪𓆪 𖤛ᴠɪᴘ المطور : </h1>')
 })
 
 app.post("/uploadFile", upload.single('file'), (req, res) => {
